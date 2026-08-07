@@ -1,0 +1,94 @@
+
+            body {
+               margin: 0;
+               font-family: Arial, sans-serif;
+               background-color:#f2d8ab; 
+            }
+            .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color:#512615;
+            padding: 10px 20px;
+    }
+    .logo {
+      font-family: briston;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .nav-buttons {
+      gap: 10px;
+      list-style: none;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      
+
+    }
+    .nav-buttons button {
+      background-color:#f2d8ab;
+      color:#512615;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      padding: 8px 15px;
+      border-radius: 15px;
+    }
+    a{
+        text-decoration: none;
+        color:#4f2b1d;
+    }
+    #banner
+    {
+    background: url("images/Cafe Banner.png") no-repeat center center;
+    width: 100%;
+    height: 680px;
+    position: relative;
+    background-size:cover;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    h1 {
+        font-family:"Billion Dreams";
+        font-size:80px;
+        font-weight:100;
+        text-align:left;
+        color:#4f2b1d;
+        margin-bottom:10px;
+        margin-left:15px;
+        line-height:100px;
+        span{
+            font-family:"Billion Dreams";
+            color: #4f2b1d;
+            display: block;
+            font-size:150px;
+            line-height: 120px;
+            margin: 0px 0 30px;
+            margin-left:15px;
+        }
+
+    }
+
+    h6{
+        font-size: 30px;
+        text-align:left;
+        color:#997352;
+        margin: 0px;
+        margin-left:15px;
+        width:500px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    }
+    .footer {
+            background-color:#512615;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 20px; }
+    
+        
+
+
+

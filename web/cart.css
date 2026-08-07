@@ -1,0 +1,203 @@
+.box {
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+}
+.menu-wrapper h2 {
+  font-family:'hello';
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 15px;
+ font-weight: 300;
+}
+.menu-wrapper h3 {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.menu-wrapper .order-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 50px 0 0;
+}
+.menu-wrapper .order-title a {
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+  background-color: #d30718;
+  padding: 8px 20px;
+}
+.menu-wrapper .order-title a h2 {
+  margin: 0px;
+}
+img {
+  width: 100%;
+}
+h2.title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.shop-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  align-content: center;
+}
+.food-box {
+  position: relative;
+  background-color:#512615;
+  padding: 10px;
+  margin: 10px;
+  width: calc(33.3333333333% - 40px);
+  box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+  border-radius: 3px;
+}
+.pic {
+  overflow: hidden;
+}
+.pic:hover img {
+  transform: scale(1.5);
+}
+.food-img {
+  transition: 0.4s;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.food-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color:#f2d8ab;
+}
+.food-price {
+  font-weight: 500;
+  color:white;
+}
+.add-cart {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #2ed573;
+  color: white;
+  padding: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.add-cart:hover {
+  background-color: rgba(255, 0, 0, 0.786);
+}
+.smenu {
+  padding: 60px;
+  display: flex;
+}
+.smenu .box-model {
+  display: none;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.smenu .box-model.active {
+  display: block;
+}
+.smenu .box-model.active body {
+  overflow: hidden;
+}
+.smenu .box-model .close {
+  color: #ccc;
+  right: 25px;
+  top: 10px;
+  z-index: 20;
+}
+.smenu .box-model .arrow .arrow-right, .menu .box-model .arrow .arrow-left {
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  top: 50%;
+  border-right: 2px solid #fff;
+  border-top: 2px solid #fff;
+  transform: rotate(45deg);
+  z-index: 20;
+}
+.smenu .box-model .arrow .arrow-left {
+  left: 20px;
+  transform: rotate(-135deg);
+}
+.smenu .box-image-container {
+  height: 100%;
+}
+.smenu .box-image-container .box-image img.active {
+  animation: scale 0.5s;
+}
+@keyframes scale {
+  from {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+.smenu .menu-image-container {
+  flex-wrap: wrap;
+  flex: 60%;
+  display: flex;
+}
+.smenu .menu-image-container .image {
+  margin: 0 20px 20px 0;
+  flex: calc(50% - 40px);
+}
+.smenu .text {
+  flex: 55%;
+  padding: 40px 0 0 62px;
+}
+.smenu .text h2 {
+  font-family: "Hello", cursive;
+  font-size: 80px;
+  font-weight: 700;
+  color: red;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.smenu .text h3 {
+  color: #ecf5a1;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.smenu .text a {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+  background-color: #d30718;
+  padding: 8px 20px;
+  margin-top: 20px;
+}
+.smenu .text .fa-asterisk {
+  color: #9a9998;
+}
+.smenu p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.smenu .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
