@@ -1,4 +1,4 @@
-**☕ Cafe Haven**
+☕Cafe Haven
 
 Cafe Haven is a dynamic web-based cafe management application developed using Java, JSP, Servlets, JDBC, and MySQL. 
 The application provides a seamless experience for users to browse the menu, register, log in, manage their cart, place orders, and generate invoices. 
